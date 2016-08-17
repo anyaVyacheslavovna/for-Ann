@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var concatCss = require('gulp-concat-css');
 var rename = require('gulp-rename');
 
-// task, src, dest, pipe, watch, run
+
 
 gulp.task('default', ['build', 'watch']);
 
