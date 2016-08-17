@@ -2,8 +2,6 @@ var gulp = require('gulp');
 var concatCss = require('gulp-concat-css');
 var rename = require('gulp-rename');
 
-
-
 gulp.task('default', ['build', 'watch']);
 
 gulp.task('build', function() {
